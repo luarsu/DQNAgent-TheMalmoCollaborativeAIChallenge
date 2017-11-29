@@ -6,12 +6,31 @@ Final project of my BSc in Computer Science where I developed an AI for the Micr
 To test the game you must have installed Project Malmo, link here:
 
 https://github.com/Microsoft/malmo#getting-started
+
+
 Also, to thest the agent I created you must have installed the Keras library for python with all its dependencies, as it is used to create and manage the artificial neural network:
 
 https://keras.io/
 
-*How to test and train the agent*
+*HOW TO USE AND THEST THE AGENT*
 
+1.- Have Project Malmo & Keras correctly installed
+2.- Download the project of the pig chase game from https://github.com/Microsoft/malmo-challenge
+3.- Add the files of the folder agents-pig-chase of this repository to the folder ai_challenge/pig_chase of the malmo-challenge             repository 
+4.- Start two instances of the Malmo Client on ports 10000 and 10001
+5.- cd malmo-challenge/ai_challenge/pig_chase
+6.- python luarsu_evaluation.py
+7.- Try the agent and make your own experiments with it!
+
+*CHECK/CHANGE THE IMPORTANT CODE*
+
+The scripts/files where the DQN agent is implemented are:
+
+-agent.py (The class for the DQN agent is the FocusedAgent class)
+-environment.py (Where the main loop of the algorithm and the game are executed)
+-luarsu_evaluation.py (The main code that starts the game)
+
+All the code it's commented to make it as clear as possible and make the algorithm more understandable.
 
 *EXPLANATION*
 
