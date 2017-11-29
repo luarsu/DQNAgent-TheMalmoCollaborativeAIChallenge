@@ -2,15 +2,20 @@
 Final project of my BSc in Computer Science where I developed an AI for the Microsoft's The Malmo Collaborative AI Challenge. The agent uses a variation adapted to the malmo platfor of DeepMind's Deep Reinforcement Learning algorithm.
 
 *WARNING*
+
 To test the game you must have installed Project Malmo, link here:
+
 https://github.com/Microsoft/malmo#getting-started
-Also, to thest the agent I created you must have installed the Keras library for python with all its dependencies, as it is used to create and manage the artificial neural network
+Also, to thest the agent I created you must have installed the Keras library for python with all its dependencies, as it is used to create and manage the artificial neural network:
+
 https://keras.io/
 
 *How to test and train the agent*
 
 
 *EXPLANATION*
+
+
 This project was developed during my last semester of my BSc in Computer Engineering as my Bachelor's final project at Universidad Politecnica de Valencia and was part of the Microsoft's contest The Malmo Collaborative AI Challenge. This aim of this contest was to encourage research in collaboration between intelligent agents. To do this, the proposed the following challenge: To develop an AI that learnt to collaborate with another one without involving any communication between them to obtain the highest score possible in the mini game Pig Chase.
 
 This mini game was implemented in Minecraft using Project Malmo; an AI experimentation platform built on top of Minecraft. Pig Chase is inspired by the variant of the stag hunt; a classical game theoretic game formulation that captures conflicts between collaboration and individual safety.
